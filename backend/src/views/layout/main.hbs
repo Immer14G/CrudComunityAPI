@@ -3,8 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>CRUD API</title>
+    <!--bootstrap 5-->
+    <link rel="stylesheet" href="https://bootswatch.com/5/cosmo/bootstrap.min.css">
+     <!--custom css -->
+     <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-    {{{ body }}} 
+    {{> navigation}}  <!-- Aquí se incluye el parcial -->
+    <div class="container">
+        {{{ body }}} 
+    </div>
 </body>
 </html>

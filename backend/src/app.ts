@@ -5,6 +5,7 @@ import path from "path";
 
 //routes
 import indexRoutes from './routes';
+import taskRoutes from './routes/task';
 
 class App {
     app: express.Application;
@@ -33,10 +34,14 @@ class App {
 
     middlewares() {
         this.app.use(morgan('dev'));
+        this.app.use(express.json());
+        this.app.use(express.urlencoded({ extended: false }));
     }
-
+//rutas
     routes() {
         this.app.use(indexRoutes);
+        this.app.use('/tasks',taskRoutes);
+        this.app.use(express.static(path.join(__dirname,'public')));
     }
 
     start() {

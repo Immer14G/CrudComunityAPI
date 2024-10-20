@@ -18,10 +18,10 @@ function conect() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
             yield mongoose_1.default.connect("mongodb://localhost/ts-app-api", {});
-            console.log("Conexión exitosa a la base de datos");
+            console.log("connection true ");
         }
         catch (error) {
-            console.error("Error al conectar a la base de datos:", error);
+            console.error("failed connection:", error);
         }
     });
 }

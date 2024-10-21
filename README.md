@@ -28,7 +28,8 @@ e instala tambien sus dependencias "npm install"
 
 //1 parte
 para ejecutar el backend que funciona NODEJS, TYPESCRIPT, MONGODB 
-iniciamos con el comando; npx nodemon src/index.ts
+iniciamos con el comando; "npm run dev" o
+npx nodemon src/index.ts
 
 despues podemos ver una interfaz web 
 ![image](https://github.com/user-attachments/assets/637ea8de-de95-4525-bfeb-c5b0cca0925a)

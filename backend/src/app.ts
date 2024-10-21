@@ -2,7 +2,7 @@ import express from "express";
 import morgan from "morgan";
 import { engine } from 'express-handlebars'; 
 import path from "path";
-
+var cors = require('cors')
 //routes
 import indexRoutes from './routes';
 import taskRoutes from './routes/task';
@@ -35,6 +35,7 @@ class App {
     middlewares() {
         this.app.use(morgan('dev'));
         this.app.use(express.json());
+        this.app.use(cors())
         this.app.use(express.urlencoded({ extended: false }));
     }
 //rutas

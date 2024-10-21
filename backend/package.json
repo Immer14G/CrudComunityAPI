@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "ts-node src/index.ts",
+    "build": "tsc",
     "clean": "rimraf ./dist"
   },
   "keywords": [],
@@ -21,6 +22,7 @@
   },
   "dependencies": {
     "-": "^0.0.1",
+    "cors": "^2.8.5",
     "D": "^1.0.0",
     "express": "^4.21.1",
     "express-handlebars": "^8.0.1",

@@ -10,6 +10,8 @@ router.route('/create')
     })
     .post(async (req: Request, res: Response) => {
         const { title, description } = req.body;
+        if(!title && !description){res.status(500).json({mjs:"titleanddescriptionisrequired"})}
+
         const newTask = new Task({ title, description });
         await newTask.save();
         res.redirect('/tasks/list'); 

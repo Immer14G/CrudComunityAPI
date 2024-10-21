@@ -6,13 +6,21 @@ hbs hace una funcion muy importante dentro de nuestro backend
 
 para clonar el proyecto sigue estos pasos
 Paso 1-- Usa PowerShell, el Símbolo del Sistema en Windows, o la Terminal en macOS/Linux
+
 paso 2-- navega a la carpeta deseada un ejemplo  "cd ruta/a/la/carpeta"
+
 paso 3-- pon el siguiente codigo "git clone https://github.com/Immer14G/CrudComunityAPI.git"
+
 paso 4--cd CrudComunityAPI
+
 despues de seguir estos pasos instala las dependencias
+
 primero navega a backend "cd backend"
+
 segundo instala sus dependencias "npm install"
+
 despues ve al frontend "cd ../frontend"
+
 e instala tambien sus dependencias "npm install"
 
 

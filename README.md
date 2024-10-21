@@ -34,22 +34,11 @@ tambien esta views/: Contiene las vistas o páginas principales de la aplicació
 y public/: Carpeta que contiene archivos estáticos que se sirven directamente (como el index.html)
 
 podriamos dejar el primer ejercicio hasta aca
-////////////////////////////////////////////////////////////////////////////////////
+
+
+--parte 2
 el frontend aun no esta terminado con React no devuelve la respuesta JSON() me envia un form
 para entender un poco mejor el frontend copie esta img para guiarnos
-
-frontend/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── router/
-│   ├── store/
-│   ├── views/
-│   └── App.vue
-│   └── main.js
-├── public/
-│   └── index.html
-├── package.json
 
 src; es la carpeta que contiene todo el código fuente de la aplicación web
 
@@ -57,6 +46,15 @@ public
 Esta carpeta contiene   los  archivos que se sirven de manera estátic
 
 y de cada carpeta se desglosan sus demas componentes
+
+si quieres ir y clonar el codigo y probarlo hazlo de la siguiente manera
+abres una terminal y sigue los pasos
+
+1-cd CrudComunityAPI/frontend
+2-cd CrudComunityAPI/frontend
+3-npm install
+4-iniciamos con "npx nodemon src/index.ts"
+
 
 
 
